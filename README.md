@@ -8,10 +8,12 @@
 
 ## インストール
 
-1. このリポジトリをクローン（`git clone`）します。
-2. クローンしたディレクトリに入って（`cd example-app`）、以下のコマンドを実行します。
-  1. `./sail up -d`
-  2. `./sail artisan migrate`
+1. [11.x インストール](https://readouble.com/laravel/11.x/ja/installation.html) に従って、sailをインストールします。
+2. 別のディレクトリにこのリポジトリをクローン（`git clone`）します。
+3. 1. で作成されたディレクトリに、クローンしたディレクトリを上書きします。
+4. `sail` に実行の権限を与えます。 （例： `chmod u+x sail`）
+5. `./sail up -d` でサーバーを起動します。
+6. `./sail artisan migrate` でデータベースの初期データを設定します。
 
 ## 操作
 
