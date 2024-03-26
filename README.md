@@ -5,6 +5,7 @@
 - Docker
   - `docker` グループに、実行するユーザーを追加する必要があります。（例： `sudo usermod -aG docker {{あなたのユーザー名}}`
 - Docker Compose
+- Git（このリポジトリをクローンするために）
 
 ## インストール
 
